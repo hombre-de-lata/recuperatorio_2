@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Necesitas tener creada una cuenta para iniciar la aplicaicon"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:textSize="23dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="crear cuenta "
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_marginTop="60dp"
+        android:textSize="19dp"
+        android:textStyle="italic"/>
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Contraceña"
+    android:layout_marginTop="30dp"
+        android:textSize="19dp"
+        android:textStyle="italic"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Recordarme"
+        android:textSize="21dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraceña?"
+        android:layout_marginTop="40dp"
+        android:textSize="19dp"
+        android:layout_marginLeft="130dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="entrar "
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"/>
+
+
+
+</LinearLayout>
